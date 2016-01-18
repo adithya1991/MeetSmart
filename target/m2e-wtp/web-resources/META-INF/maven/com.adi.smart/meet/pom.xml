@@ -14,6 +14,16 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+    <!-- Apache Cxf Rest Depenencies -->
+    <dependency>
+	<groupId>org.apache.cxf</groupId>
+	<artifactId>cxf-rt-frontend-jaxrs</artifactId>
+	<version>3.1.4</version>
+</dependency>
+    
+    
+    
   </dependencies>
   <build>
     <finalName>meet</finalName>

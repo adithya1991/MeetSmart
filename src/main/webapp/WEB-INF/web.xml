@@ -4,4 +4,19 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  
+  <context-param>
+  <param-name>contextLoaderListener</param-name>
+  <param-value>/WEB-INF/initialLoader.xml</param-value>
+  </context-param>
+  
+  <servlet>
+  <servlet-name>cxf</servlet-name>
+  <servlet-class></servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>cxf</servlet-name>
+  <url-pattern>/*</url-pattern>
+  </servlet-mapping>
 </web-app>
