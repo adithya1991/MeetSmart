@@ -7,10 +7,9 @@ import javax.ws.rs.core.MediaType;
 
 import com.adi.meet.rest.interfaces.RegisterUserService;
 
-@Path("register")
+
 public class RegisterUserServiceImpl implements RegisterUserService {
-	@Path("/user")
-	@Consumes(MediaType.APPLICATION_JSON)
+
 	public void registerUser() throws Exception {
 		throw new Exception("You faggot !!");
 	}
